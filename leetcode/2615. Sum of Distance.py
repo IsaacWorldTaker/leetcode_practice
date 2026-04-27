@@ -1,6 +1,5 @@
-from platform import java_ver
+
 from typing import List
-from collections import defaultdict
 
 
 class Solution:
