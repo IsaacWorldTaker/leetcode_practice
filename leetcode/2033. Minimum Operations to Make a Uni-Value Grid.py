@@ -1,5 +1,4 @@
 from typing import List
-0
 
 
 class Solution:
