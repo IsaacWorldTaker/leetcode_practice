@@ -13,7 +13,7 @@ class Solution:
         for i in range(k, len(nums)):
             nums[i] = val
 
-        return k
+        return k, nums
 
 
 solution = Solution()
@@ -24,7 +24,7 @@ val = 3
 expected_answer = [2, 2]
 
 k, asnwer = solution.removeElement(nums, val)
-
+print(k)
 assert k == len(expected_answer)
 
 nums = [0, 1, 2, 2, 3, 0, 4, 2]
@@ -32,5 +32,6 @@ val = 2
 expected_answer = [0, 1, 4, 0, 3]
 
 k, asnwer = solution.removeElement(nums, val)
+print(k)
 
 assert k == len(expected_answer)
